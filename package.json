@@ -1,0 +1,11 @@
+{
+  "name": "jslcs",
+  "version": "1.0.0",
+  "description": "A server that exposes an API for LCS matches and schedules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cassandra Cruz <celkamada@gmail.com> (http://lambdatastic.github.io)",
+  "license": "ISC"
+}
