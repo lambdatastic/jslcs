@@ -2,9 +2,6 @@
 var Task = require('data.task');
 var R = require('ramda');
 
-// Import Knex, initializing to mysql dialect
-var knex = require('knex')({client: 'mysql'});
-
 // import Mysql dependency
 var mysql = require('mysql');
 
@@ -21,5 +18,5 @@ var queryTask = function(query) {
 
 module.exports = {
   queryTask: queryTask,
-  queryBuild: knex
+  conn: conn
 };
